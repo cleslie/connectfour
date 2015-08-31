@@ -1,4 +1,4 @@
-Connect Four Clone
+# Connect Four Clone
 
 - Basic clone of connect four in Python 3.4
 - Command line interface - run with: 'python connectfour.py'
