@@ -1,7 +1,6 @@
 import sys
 
 board = None
-game_won = False
 RED_CHIP = "R"
 YELLOW_CHIP = "Y"
 
@@ -15,8 +14,7 @@ def print_board():
 		print(row)
 
 def game_loop():
-	global game_won
-	while game_won==False:
+	while True:
 		red_column = input("Enter Column(0-6) for RED move: ")
 		process_move(int(red_column), RED_CHIP)
 
